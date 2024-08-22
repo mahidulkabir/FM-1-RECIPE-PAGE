@@ -77,6 +77,28 @@ body{
     font-weight: bold;
     color:rgb(34, 32, 32) ;
 }
+/* ingrediants section styles */
+.ingredient h2{
+    color: hsl(14, 45%, 36%);
+}
+.ingredient ul{
+line-height: 25px;
+color:rgb(141, 136, 136) ;
+list-style: none;
+}
+.ingredient ul li::before{
+    content:"\2022";
+    color: hsl(14, 45%, 36%);
+    font-weight: bolder;
+    display: inline-block;
+    width: 2em;
+    margin-left: -2em;
+}
+hr{
+    height: 0.5px;
+    border: 0;
+    background-color:rgb(141, 136, 136) ;
+}
 
 
 
