@@ -17,8 +17,7 @@ body{
 }
 .main{
     display: flex;
-    
-    justify-content: center;
+     justify-content: center;
     align-items: center;
     height: 100%;
     padding: 100px;
@@ -145,6 +144,40 @@ table tr:last-child td{
     
     text-align: center;
     padding-bottom: 50px;
+}
+
+@media screen and (max-width:640px) {
+    body{
+        background-color: hsl(0, 0%, 100%);
+    }
+    .main{
+        display: block;
+       
+        height:auto;
+        padding: 0;
+     }  
+     .container{
+        width: auto;
+        padding: 0px;
+        background-color: hsl(0, 0%, 100%);
+        border-radius: 0px;
+    }
+    .main-pic img{
+        width: 100%;
+        border-radius: 0px;
+        margin: 0px;
+    }
+    .mobile{
+        padding: 20px;
+    }
+    .mobile-margin{
+        margin: 20px;
+    }
+    .attribution{
+    
+        text-align: center;
+        padding-top: 50px;
+    }
 }
 
 
