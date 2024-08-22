@@ -97,7 +97,7 @@ list-style: none;
 hr{
     height: 0.5px;
     border: 0;
-    background-color:rgb(141, 136, 136) ;
+    background-color:rgba(141, 136, 136, 0.349) ;
 }
 /* Instruction section styles */
 .instruction h3{
@@ -119,6 +119,33 @@ hr{
     color:rgba(34, 32, 32, 0.726) ;
 }
 
+/* Nutrition section styles */
+table{
+    border-collapse: collapse;
+    
+}
+table td{
+    border-bottom: 1px solid rgba(141, 136, 136, 0.349) ;
+    width: 250px;
+    padding: 10px 20px;
+    
+}
+table tr:last-child td{
+    border:none;
+}
+.edit{
+    color:rgba(34, 32, 32, 0.726) ;
+    font-size: 12px;
+}
+.right-column{
+    font-weight: bold;
+    color: hsl(14, 45%, 36%);
+}
+.attribution{
+    
+    text-align: center;
+    padding-bottom: 50px;
+}
 
 
 
