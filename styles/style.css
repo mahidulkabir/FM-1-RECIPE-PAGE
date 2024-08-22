@@ -50,11 +50,33 @@ body{
     background-color:  hsl(330, 100%, 98%);
     border-radius: 10px;
     padding: 2px 15px;
+    font-size: 12px;
+}
+.prep-time h4{
+    color: hsl(332, 51%, 32%);
+    font-size: 15px;
 }
 
+.prep-time ul {
+    line-height: 25px;
+    color:rgb(141, 136, 136) ;
+    list-style: none;
+}
+.prep-time ul li::before{
+    content: "\2022";
+    color:hsl(332, 51%, 32%);
+    font-weight: bolder;
+    font-size: 13px;
+    display: inline-block;
+    width: 2.5em;
+    margin-left: -2.5em;
+    
 
-
-
+}
+.prep-time span{
+    font-weight: bold;
+    color:rgb(34, 32, 32) ;
+}
 
 
 
