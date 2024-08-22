@@ -78,15 +78,15 @@ body{
     color:rgb(34, 32, 32) ;
 }
 /* ingrediants section styles */
-.ingredient h2{
+.ingredient h3{
     color: hsl(14, 45%, 36%);
 }
-.ingredient ul{
+.ul-1{
 line-height: 25px;
 color:rgb(141, 136, 136) ;
 list-style: none;
 }
-.ingredient ul li::before{
+.ul-2::before{
     content:"\2022";
     color: hsl(14, 45%, 36%);
     font-weight: bolder;
@@ -99,7 +99,25 @@ hr{
     border: 0;
     background-color:rgb(141, 136, 136) ;
 }
-
+/* Instruction section styles */
+.instruction h3{
+    color: hsl(14, 45%, 36%);
+}
+.instruction ol{
+    font-size: 13px;
+    line-height:25px;
+    font-weight: bold;
+    color:hsl(14, 45%, 36%);
+    margin-left: -1.5em;
+}
+.sp1{
+    font-weight: bold;
+    color: rgba(34, 32, 32, 0.726);
+    }
+.sp{
+    font-weight:400;
+    color:rgba(34, 32, 32, 0.726) ;
+}
 
 
 
